@@ -45,7 +45,7 @@ public class ParserBot extends TelegramLongPollingBot {
         if (token.isEmpty()) {
             Properties properties = new Properties();
             try {
-                properties.load(new FileInputStream("../resources/properties.properties"));
+                properties.load(new FileInputStream("properties.properties"));
                 token = properties.getProperty("BOT_TOKEN");
             } catch (IOException exception) {
                 System.err.println("Can't load properties, trying get another method");
