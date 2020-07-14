@@ -20,9 +20,7 @@ public class Launcher {
         }
         // so useless!!! heroku pls do something with ports. I don't need it!
         try (ServerSocket serverSocket = new ServerSocket(Integer.parseInt(System.getenv("PORT")))) {
-            while (true) {
                 Socket socket = serverSocket.accept();
-            }
         } catch (IOException exception) {
             exception.printStackTrace();
         }
