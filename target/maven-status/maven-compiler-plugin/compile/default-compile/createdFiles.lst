@@ -1,0 +1,12 @@
+ru/vladrus13/parser/BinaryOperation.class
+ru/vladrus13/parser/Expression.class
+ru/vladrus13/parser/Variable.class
+ru/vladrus13/parser/operations/Add.class
+ru/vladrus13/bot/ParserBot.class
+ru/vladrus13/parser/Error.class
+ru/vladrus13/parser/Parser.class
+ru/vladrus13/parser/operations/Divide.class
+ru/vladrus13/parser/operations/Subtract.class
+ru/vladrus13/Launcher.class
+ru/vladrus13/parser/operations/Multiply.class
+ru/vladrus13/parser/Const.class

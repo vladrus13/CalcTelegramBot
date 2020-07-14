@@ -1,0 +1,12 @@
+/home/vladkuznetsov/Vl/Projects/Git/CalcTelegramBot/src/main/java/ru/vladrus13/Launcher.java
+/home/vladkuznetsov/Vl/Projects/Git/CalcTelegramBot/src/main/java/ru/vladrus13/parser/operations/Subtract.java
+/home/vladkuznetsov/Vl/Projects/Git/CalcTelegramBot/src/main/java/ru/vladrus13/parser/BinaryOperation.java
+/home/vladkuznetsov/Vl/Projects/Git/CalcTelegramBot/src/main/java/ru/vladrus13/parser/operations/Divide.java
+/home/vladkuznetsov/Vl/Projects/Git/CalcTelegramBot/src/main/java/ru/vladrus13/parser/Variable.java
+/home/vladkuznetsov/Vl/Projects/Git/CalcTelegramBot/src/main/java/ru/vladrus13/parser/Expression.java
+/home/vladkuznetsov/Vl/Projects/Git/CalcTelegramBot/src/main/java/ru/vladrus13/parser/Error.java
+/home/vladkuznetsov/Vl/Projects/Git/CalcTelegramBot/src/main/java/ru/vladrus13/parser/Parser.java
+/home/vladkuznetsov/Vl/Projects/Git/CalcTelegramBot/src/main/java/ru/vladrus13/parser/operations/Add.java
+/home/vladkuznetsov/Vl/Projects/Git/CalcTelegramBot/src/main/java/ru/vladrus13/bot/ParserBot.java
+/home/vladkuznetsov/Vl/Projects/Git/CalcTelegramBot/src/main/java/ru/vladrus13/parser/operations/Multiply.java
+/home/vladkuznetsov/Vl/Projects/Git/CalcTelegramBot/src/main/java/ru/vladrus13/parser/Const.java
