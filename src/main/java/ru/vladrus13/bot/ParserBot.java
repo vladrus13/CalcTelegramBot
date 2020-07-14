@@ -10,6 +10,7 @@ import ru.vladrus13.parser.Parser;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Collections;
+import java.util.Objects;
 import java.util.Properties;
 
 public class ParserBot extends TelegramLongPollingBot {
@@ -41,15 +42,19 @@ public class ParserBot extends TelegramLongPollingBot {
 
     @Override
     public String getBotToken() {
-        if (token.equals("")) {
+        if (token.isEmpty()) {
             Properties properties = new Properties();
             try {
                 properties.load(new FileInputStream("../resources/properties.properties"));
+                token = properties.getProperty("BOT_TOKEN");
             } catch (IOException exception) {
-                System.err.println("Can't load properties");
-                exception.printStackTrace();
+                System.err.println("Can't load properties, trying get another method");
+                token = System.getenv("BOT_TOKEN");
+                if (token == null || Objects.equals(token, "")) {
+                    System.err.println("Can't find \"BOT_TOKEN\" variable in Environment Variables, throwing exception");
+                    exception.printStackTrace();
+                }
             }
-            token = properties.getProperty("BOT_TOKEN");
         }
         return token;
     }
